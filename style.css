@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    ins{color:#777;
+    text-decoration:none;
+}
+}
+nav{
+background-color:rgba(0, 0, 0, .15);
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+z-index:1111111;
+padding: 10px 15px 15px;
+}
+header{
+    background-image: url('drew-coffman-1872.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.list{
+    list-style: none;
+
+}
+.left-part{
+    float: left;
+    padding-top: 10px;
+    width: 60%;
+}
+.right-part{
+   float: right;
+   width: 40%;
+   padding-top: 10px;
+}
+.list li{
+    display: inline-block;
+    padding: 0 10px ;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: bisque;
+}
+.list li a:hover{
+    color: rgba(55, 123, 232, 0.538);
+    cursor:pointer;
+}
+header .text{
+    color:white;
+    margin: auto;
+    transform: translateY(200%);
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff;
+    margin-top: 15px ;
+    
+}
+button:hover{
+    cursor:pointer;
+    background-color: #fff;
+    color: black;
+}
+.part{
+    float: left;
+    width: 50%;
+    color: #686868;
+    line-height: 30px;
+}
+.txt{
+    transform: translateY(45%);
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    }
+    .image{
+        padding-left: 0.0009%;
+        margin-top: 0.0009%;
+        
+        
+    }
+    .para{
+        margin-bottom: 20px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .icon{
+        padding-left: 20px;
+    }
+    .clr{
+        clear: both;
+    }
+    
+    .ppart{
+        float: right;
+        width: 50%;
+        color: #686868;
+        line-height: 30px;
+    }
+    .ttxt{
+        transform: translateY(45%);
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: -200px;
+        
+        }
+        .iimage{
+            padding-right: 0.09%;
+            margin-top: 30.9%;
+        
+            
+            
+        }
+        .para2{
+            margin-bottom: 20px;
+        }
+        .iimage img{
+            width: 100%;
+        }
+        .footer{
+            background-color:#434141;
+            padding-top: 40px;
+            text-align: center;
+            margin-top: 150px;
+            color: white;
+            width: 208%;
+            padding-bottom: 40px;
+            transform: translateX(-0.5%);
+           
+        }
